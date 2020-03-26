@@ -1025,7 +1025,7 @@ DELIMITER ;;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;;
 /*!50003 SET sql_mode              = 'NO_ENGINE_SUBSTITUTION' */ ;;
 /*!50003 SET @saved_time_zone      = @@time_zone */ ;;
-/*!50003 SET time_zone             = 'UTC' */ ;;
+/*!50003 SET time_zone             = '' */ ;;
 /*!50106 CREATE*/ /*!50117 DEFINER=`admin`@`%`*/ /*!50106 EVENT `auto_assignment_ticket_event` ON SCHEDULE EVERY 1 MINUTE STARTS '2018-12-01 14:21:51' ON COMPLETION NOT PRESERVE ENABLE DO call autoAssignmentTicket() */ ;;
 /*!50003 SET time_zone             = @saved_time_zone */ ;;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;;
